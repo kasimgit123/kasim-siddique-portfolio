@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html, body{
+    overflow-x: hidden;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(17, 16, 16);
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(17, 16, 16);
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 999;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+ul li a{
+    color: white;
+    font-size: 19px;
+    margin-inline: 22px;
+    transition: 0.5s;
+}
+ul li a:hover{
+    color: rgb(0, 132, 255);
+    border-bottom: 1px solid  rgb(0, 132, 255);
+}
+#bar{
+    display: none;
+}
+.nav-logo{
+    font-size: 22px;
+}
+.nav-logo span{
+    color: rgb(0, 153, 255);
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+.main-text h1{
+    font-size: 70px;
+}
+.main-text h1 span{
+    color: rgb(0, 153, 255);
+}
+.main-text h3{
+    font-size: 28px;
+}
+.main-text p{
+    font-size: 30px;
+}
+.main-text button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(0, 153, 255);
+    font-size: 19px;
+    border: none;
+    margin-top: 24px;
+    color: white;
+    transition: 0.5s;
+}
+.main-text button a{
+    color: white;
+}
+button:hover{
+    border: 2px solid rgb(0, 174, 255);
+    background-color: transparent;
+    cursor: pointer;
+}
+.head{
+    text-align: center;
+    padding: 80px;
+}
+.head span{
+    color:rgb(0, 153, 255);
+}
+.aboutus{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(24, 22, 22);
+    padding: 52px;
+}
+.aboutus img{
+    width: 305px;
+    border-radius: 50%;
+    border: 4px solid  rgb(0, 174, 255);
+    margin-inline: 65px;
+    transition: 0.5s;
+    /* height: 310px; */
+}
+.aboutus img:hover{
+    transform: scale(1.2);
+}
+.abouttext p{
+   margin-top:22px ; 
+}
+.abouttext h2 span{
+    color: rgb(0, 174, 255);
+ }
+ .abouttext p span{
+    color: rgb(214, 208, 208);
+ }
+ .abouttext h2 {
+    font-size: 30px;
+ }
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.card{
+    width: 250px;
+    padding: 22px;
+    background-color: rgb(49, 47, 47);
+    margin-inline: 20px;
+    margin-top: 22px;
+    border-radius: 5px;
+    transition: 1s;
+}
+.card p{
+    margin-top: 11px;
+}
+.card i{
+    font-size: 35px;
+}
+.card:hover{
+    background-color: black;
+}
+.mywork{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.workcard{
+    width: 300px;
+    height: 310px;
+    background-color: rgb(49, 47, 47);
+    border-radius: 5px;
+    margin-inline: 20px;
+    margin-top: 22px;
+    padding: 11px;
+    transition: 1s !important;
+    
+}
+.workcard:hover{
+    background-color: black;
+}
+.workcard img{
+    width: 100%;
+    height: 200px;
+
+}
+.workcard p{
+  margin-top: 11px;
+}
+.workcard a{
+    position: absolute;
+    margin-top: 20px;
+    padding: 6px 12px;
+    background-color: rgb(0, 153, 255);
+    color: white;
+}
+.contact{
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(49, 47, 47);
+    border-radius: 25px 0px 25px 0px;
+    transition: 0.5s !important;
+}
+.contact:hover{
+    background: black;
+}
+.contact input{
+    width: 90%;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-top: 3px;
+    outline: none;
+    transition: 0.5s;
+
+}
+.contact input:hover{
+    box-shadow: 1px 1px 20px 1px rgb(0, 162, 255);
+}
+.contact p{
+    margin-top: 20px;
+}
+.contact button{
+    width: 90px;
+    height: 28px;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    font-size: 17px;
+    margin-top: 22px;
+    border: none;
+    transition: 0.5s;
+}
+.contact button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(0, 174, 255);
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 55px;
+    margin-top: 66px;
+    background-color:rgb(24, 22, 22);
+    flex-wrap: wrap;
+
+}
+.text{
+    margin-top: 20px;
+}
+.text p{
+    margin-top: 12px;
+    transition: 0.5s;
+    color: gray;
+}
+.text p a{
+    color: gray;
+    transition: 0.5s;
+}
+.text p a:hover{
+    color: white;
+    transform:scaleX(1.2)
+}
+.text p:hover{
+      color: white;
+    transform:scaleX(1.2)
+}
+.footer-bottom{
+    text-align: center;
+   
+    padding: 18px 0px;
+    background-color: #1b1b1b;
+}
+.footer-bottom a{
+    color: rgba(211, 208, 208, 0.712);;
+    transition: 0.5s;
+
+}
+.footer-bottom a:hover{
+    color: white;
+}
