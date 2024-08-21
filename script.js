@@ -2,6 +2,7 @@
 let cvBtn=document.getElementById('cvbtn');
 let submit=document.getElementById('submit');
 let bar=document.getElementById('bar');
+let scrollBtn=document.getElementById('move-up-btn');
 
 cvBtn.addEventListener("click", function(){
     alert('Succefully Download CV')
@@ -61,3 +62,20 @@ window.addEventListener('load', () => {
         mirror: false
     })
 });
+
+
+//scroll-btn-js
+window.addEventListener('scroll', function () {
+   if(window.pageYOffset > 500){
+    scrollBtn.style.display ="block";
+   }
+    else{
+           scrollBtn.style.display="none";
+          }
+});
+scrollBtn.addEventListener('click', function(){
+    window.scrollTo({
+        top:0,
+        behavior:"smooth"
+    })
+})
