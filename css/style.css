@@ -12,6 +12,26 @@ body{
     background-color: rgb(17, 16, 16);
     color: white;
 }
+.dark-theme{
+    background-color: rgb(17, 16, 16);
+    background-color: white; 
+}
+.dark-theme header nav .nav-logo h1{
+   color: white;
+}
+.dark-theme button a{
+  transition: 0.5s;
+}
+.dark-theme button:hover a{
+   color: black;
+}
+
+.dark-theme .main-text{
+    color: black;
+}
+.dark-theme h1{
+    color: black;
+}
 
 nav{
     display: flex;
@@ -50,8 +70,10 @@ ul li a:hover{
 .hero-section{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 80px;
     align-items: center;
+    row-gap: 1;
+    /* padding: 25px 0px; */
 }
 .main-text h1{
     font-size: 70px;
@@ -83,6 +105,13 @@ button:hover{
     background-color: transparent;
     cursor: pointer;
 }
+
+.main-img{
+    background: rgb(0, 153, 255);
+    border-bottom-left-radius: 25%;
+    border-top-right-radius: 25%;
+}
+
 .head{
     text-align: center;
     padding: 80px;
@@ -246,11 +275,11 @@ footer{
     transition: 0.5s;
 }
 .text p a:hover{
-    color: white;
+    color: rgb(0, 132, 255);
     transform:scaleX(1.2)
 }
 .text p:hover{
-      color: white;
+      color: rgb(0, 132, 255);
     transform:scaleX(1.2)
 }
 .footer-bottom{

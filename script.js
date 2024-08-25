@@ -79,3 +79,16 @@ scrollBtn.addEventListener('click', function(){
         behavior:"smooth"
     })
 })
+
+//dark-theme-js
+let darkIcon=document.getElementById('dark-icon');
+
+darkIcon.onclick = function(){
+    document.body.classList.toggle('dark-theme');
+    darkIcon.style.cursor ='pointer';
+    if(document.body.classList.contains('dark-theme')){
+        darkIcon.src="image/sun-mode-icon.png";
+    } else{
+        darkIcon.src="image/dark-mode-icon.png";
+    }
+};
